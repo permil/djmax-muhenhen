@@ -11,7 +11,7 @@ int main()
 {
     std::cout <<
         "\n"
-        "**動作中** 無変換/変換キーを左Shift/右Shiftに変換しています\n"
+        "**動作中** 無変換/変換キーをC/,に変換しています\n"
         "\n"
         "  このウィンドウを閉じると終了します"
         << std::endl;
@@ -21,8 +21,8 @@ int main()
 
     // キー変換の一覧
     std::vector<KeyConverter> keyConverters = {
-        KeyConverter(VK_NONCONVERT, VK_LSHIFT, virtualKeyboard),
-        KeyConverter(VK_CONVERT, VK_RSHIFT, virtualKeyboard),
+        KeyConverter(VK_NONCONVERT, 'C', virtualKeyboard),
+        KeyConverter(VK_CONVERT, VK_OEM_COMMA, virtualKeyboard),
     };
 
     // メインループ

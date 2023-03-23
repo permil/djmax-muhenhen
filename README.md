@@ -1,9 +1,11 @@
 # DJMAX向け無変換/変換キー変換ツール
-DJMAX用に無変換/変換キーの入力を左Shift/右Shiftキーに変換するツールです。
+~~DJMAX用に無変換/変換キーの入力を左Shift/右Shiftキーに変換するツールです。~~  
+左Shift/右Shiftはサイドノーツに使いたかったので、無変換/変換キーの入力をC/,に変換するようにした勝手版です。
+
 
 ## 実行ファイルのダウンロード
 - こちらからダウンロードできます
-    - https://mz-kb.com/tool/djmax-muhenhen/
+    - https://github.com/permil/djmax-muhenhen/releases/tag/0.0.1
 
 ## 対応OS
 - Windowsのみ
